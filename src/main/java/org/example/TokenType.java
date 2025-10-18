@@ -1,0 +1,15 @@
+package org.example;
+
+public enum TokenType {
+    SELECT, FROM, WHERE, JOIN, ON, ALIAS,
+    LEFT, RIGHT, GROUP_BY, HAVING, LIMIT, OFFSET,
+    AND, OR,
+    VAR,
+    DOT, COMMA, SEMICOLON,
+    L_PAREN, R_PAREN,
+    PLUS, DASH, SLASH, STAR,
+    EQ, GT, LT,
+    NUMBER, STRING,
+    ORDER_BY,
+    INNER, OUTER, FULL, IDENTIFIER,
+}
